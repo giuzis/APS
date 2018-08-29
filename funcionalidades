@@ -1,14 +1,30 @@
 Funcionalidades:
 
+Qualquer usuário (comum e super usuário):
 - Empréstimo de Equipamentos. 
-	O equipamento recebe a tag "emprestado". Com uma duração mínima que pode ser Renovado.
+	O equipamento emprestado se torna indisponível para empréstimos. Com uma duração mínima que pode ser Renovado.
+
 - Renovação de Equipamentos
-	Equipamentos emprestados podem ser renovados até x vezes. Equipamentos especiais, como "sala" não podem ser renovados.
+	Equipamentos emprestados podem ser renovados até x vezes. Equipamentos especiais, como "sala" não podem ser renovados (?)
+
 - Devolução de Equipamentos
-	o equipamento é devolvido. Uma nota pode ser adicionado ao equipamento.
+	o equipamento é devolvido. Uma nota pode ser adicionado ao equipamento. Ele se torna disponível para próximos empréstimos. Equipamentos devolvidos que estão em reserva enviam notificações para o usuário que a reservou.
+
 - Reserva de Equipamentos.
-	Equipamentos emprestados podem ser reservados. Um equipamento que foi reservado não pode ser mais renovado e precisa ser devolvido ao término da data.
-- Pesquisa em Equipamentos emprestados (ocupados), não emprestados (disponíveis), não emprestáveis (?)
-	Listagem de equipamentos emprestados (e por quem) e equipamentos que estão disponíveis para empréstimos. Visualização das notas dos equipamentos disponíveis.
+	Equipamentos emprestados podem ser reservados. Um equipamento que foi reservado não pode ser mais renovado pelo usuário que a reservou e precisa ser devolvido ao término da data do empréstimo atual.
+
+- Pesquisa em Equipamentos emprestados (indisponíveis), não emprestados (disponíveis), não emprestáveis (desativados / bloqueados)
+	Listagem de equipamentos emprestados (e por qual usuário) e equipamentos que estão disponíveis para empréstimos e equipamentos bloqueados (não emprestáveis). Visualização das notas dos equipamentos disponíveis.
+
 - Notas de Equipamentos
 	Equipamentos recebem notas no momento da devolução. Objetivo: adicionar comentários sobre apresentação de falhas do equipamento ou problemas de uso.
+
+Super-usuário:
+- Adição de Equipamentos:
+	Podem adicionar novos equipamentos na lista de equipamentos.
+
+- Modificação de status dos equipamentos:
+	Podem tornar equipamentos em não emprestáveis ou emprestáveis, com adição de uma nota.
+
+-Remoção de Equipamentos:
+	Podem remover equipamentos na lista de equipamentos.
