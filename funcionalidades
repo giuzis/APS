@@ -1,4 +1,15 @@
-Funcionalidades:
+FUNCIONALIDADES INICIAIS:
+
+Administrador:
+	- Cadastrar novos usuários; Editar informações dos usuários cadastrados.
+	Super-usuário:
+	- Cadastrar novos usuários; Editar informações dos usuários cadastrados de baixo nível.
+		Usuário Comum:
+		- Emprestar equipamento.
+		- Devolver equipamento.
+		- Reservar equipamento.
+
+Funcionalidades Futuras conforme desenvolvimento do sistema:
 
 Qualquer usuário (comum e super usuário):
 - Empréstimo de Equipamentos. 
