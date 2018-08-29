@@ -21,7 +21,7 @@ Qualquer usuário (comum e super usuário):
 
 Super-usuário:
 - Adição de Equipamentos:
-	Podem adicionar novos equipamentos na lista de equipamentos.
+	Podem adicionar novos equipamentos na lista de equipamentos. podem limitar número de equipamentos emprestados.
 
 - Modificação de status dos equipamentos:
 	Podem tornar equipamentos em não emprestáveis ou emprestáveis, com adição de uma nota.
