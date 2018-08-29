@@ -19,6 +19,9 @@ Qualquer usuário (comum e super usuário):
 - Notas de Equipamentos
 	Equipamentos recebem notas no momento da devolução. Objetivo: adicionar comentários sobre apresentação de falhas do equipamento ou problemas de uso.
 
+- Situação dos Equipamentos.
+	Equipamentos carregam status, que podem ser: "Bom, Apresentando Falhas, Não Funcional". Os status podem ser alterados a qualquer momento por um super usuário ou na devolução de um equipamento, em conjunto com a adição de um comentário (notas). Equipamentos não funcionais não podem mais ser emprestados.
+
 Super-usuário:
 - Adição de Equipamentos:
 	Podem adicionar novos equipamentos na lista de equipamentos. podem limitar número de equipamentos emprestados.
