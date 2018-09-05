@@ -2,7 +2,7 @@
 
 Nome do projeto: a definir.
 
-Objetivos: Controle e manunteção dos equipamentos do grupo PET-CoCE.
+Objetivos: Controle e manutenção dos equipamentos do grupo PET-CoCE.
 
 Funcionalidades Previstas:
 
