@@ -1,0 +1,12 @@
+Olá pessoal :)
+
+Segue aqui algumas definições dos padrões do projeto, para a gente não desenvolver na bagunça.
+
+Tamanho de Tela fixo = 800x600	
+/*----------------------------------------
+Eu que dei essa ideia, mas podemos pegar maior se quiser. Eu prefeir 800x600 porque é o "menor possível" e evita criar algo grande que não cabe na tela depois....
+----------------------------------------*/
+
+Para Texto e Afins:
+Fonte: Ubuntu
+Tamanho: alguma_coisa
