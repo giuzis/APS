@@ -26,7 +26,7 @@ CREATE TABLE Equipamento(
 	Nome VARCHAR(255) NOT NULL,
 	Status VARCHAR(255) NOT NULL,
 	Limite_Temp_Empr DATE,
-	Disponibilidade VARCHAR(255) NOT NULL DEFAULT Tem,
+	Disponibilidade VARCHAR(255) NOT NULL,
 	Data_ultima_revis DATE,
 	Numero_patrimonio INT,
 	Descricao VARCHAR,
